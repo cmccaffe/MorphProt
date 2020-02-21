@@ -58,7 +58,5 @@ def matrix_mapping(face_1, face_2, min_loc):
     matrix_1 = face_1[matrix_1_yint[0]:matrix_1_yint[1], matrix_1_xint[0]:matrix_1_xint[1]]
     matrix_2 = face_2[matrix_2_yint[0]:matrix_2_yint[1], matrix_2_xint[0]:matrix_2_xint[1]]
     
-    print("Matrix 1 has constraints ", "(", matrix_1_yint[0], ":", matrix_1_yint[1], ",", matrix_1_xint[0], ":", matrix_1_xint[1], ")")
-    print("Matrix 2 has constraints ", "(", matrix_2_yint[0], ":", matrix_2_yint[1], ",", matrix_2_xint[0], ":", matrix_2_xint[1], ")")
     
     return matrix_1, matrix_2
