@@ -51,7 +51,7 @@ def matrix_mapping(face_1, face_2, min_loc):
                 matrix_1_yint = (min_loc[0] - m2,m1 + 1)
                 matrix_2_yint = (0, m2 +  m1 - min_loc[0] + 1)
         else:
-            matrix_1_yint = (0, n1 + n2 - min_loc[0] + 1)
+            matrix_1_yint = (0, m1 + m2 - min_loc[0] + 1)
             matrix_2_yint = (m2 - min_loc[0],m2 +1)
 
 
